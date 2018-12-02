@@ -1,0 +1,194 @@
+		.btn {
+				background-color: #ddd;
+				border: none;
+				color: black;
+				padding: 16px 32px;
+				text-align: center;
+				font-size: 16px;
+				margin: 4px 2px;
+				transition: 0.3s;
+		}
+
+		.btn:hover {
+				background-color: #000000;
+				color: white;
+		}
+		
+		.class { 
+				font-family: Open Sans; 
+		}
+		
+		ul {
+			position: -webkit-sticky; /* Safari */
+			position: sticky;
+			top: 0;
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+			overflow: hidden;
+			background-color: #333;
+			z-index: 99999;
+		}
+
+		li {
+			float: left;
+		}
+
+		li a{
+			display: block;
+			color: white;
+			text-align: center;
+			padding: 14px 16px;
+			text-decoration: none;
+		}
+
+
+		li a:hover{
+					background-color: #111;
+		}	
+		
+		#dZero{
+				width: 100%;
+				height: 200px;
+				background-image: none;
+		}
+			
+		body{
+				 
+				background-image: ('whiskey1.jpg');
+				background-repeat: no-repeat;
+				background-position: right top; 
+
+
+				background-image: ('jug-of-beer11.jpg');
+				background-repeat: no-repeat;
+				background-position: right top;  
+
+				
+				font-family: 'Open Sans Condensed';font-size: 22px;
+				bgcolor: #EAE6DA;
+				background-position:centre;
+				border:10;
+				p{
+					color:#EAE6DA;
+				}
+
+				
+				
+		}
+		
+			/*for a laptop style display - 950px*/
+			@media screen and (max-width: 950px)
+			{
+				body{
+					background-color: white;
+				}
+				#pagewrap{
+					width: 94%
+				}	
+				#content{
+					width: 65%;
+				}
+				#sidebar{
+					width: 30%;
+				}	/*for a laptop style display - 950px*/
+			@media screen and (max-width: 950px)
+			{
+				body{
+					background-color: blue;
+				}
+				#pagewrap{
+					width: 94%
+				}	
+				#content{
+					width: 65%;
+				}
+				#sidebar{
+					width: 30%;
+				}
+			}
+			
+			/*for a tablet style display - 700px*/
+			@media screen and (max-width: 700px)
+			{
+				body{
+					background-color: red;
+				}
+					
+				#content{
+					width: auto;
+					float: none;
+				}
+				#sidebar{
+					width: auto;
+					float: none;
+				}
+			}
+			
+			/*for a mobile style display - 480px*/
+			@media screen and (max-width: 480px)
+			{
+				body{
+					background-color: yellow;
+				}
+					
+				#header{
+					height: auto;
+				}
+				h1{
+					font-size: 24px;
+				}
+				
+				#sidebar{
+					display: none;
+				}
+			}
+			}
+			
+			/*for a tablet style display - 700px*/
+			@media screen and (max-width: 700px)
+			{
+				body{
+					background-color: white;
+				}
+					
+				#content{
+					width: auto;
+					float: none;
+				}
+				#sidebar{
+					width: auto;
+					float: none;
+				}
+			}
+			
+			/*for a mobile style display - 480px*/
+			@media screen and (max-width: 480px)
+			{
+				body{
+					background-color: white;
+				}
+					
+				#header{
+					height: auto;
+				}
+				h1{
+					font-size: 24px;
+				}
+				
+				#sidebar{
+					display: none;
+				}
+			}
+			#myVideo {
+    				position: fixed;
+    				right: 0;
+   				 bottom: 0;
+   				 min-width: 100%; 
+   				 min-height: 100%;
+			}
+
+			 #map {
+       				 height: 200px; 
+        			 width: 25%; 
+      			 }
